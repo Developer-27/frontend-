@@ -1,0 +1,32 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 30px;
+    box-shadow: 3px rgb(26, 48, 87);
+}
+button {
+    padding: 15px 33px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: antiquewhite;
+    -webkit-text-stroke: 1px rgb(243, 167, 179);
+    text-decoration: none;
+}
+button:active {
+    scale: 0.9;
+    border-width: 5px;
+    border-color: #fff;
+}

@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+main {background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#bulb {
+    height: 150px;
+    width: 150px;
+    background: #fff;
+    color: #fff;
+    border-radius: 50%;
+  
+
+}
+#btn {
+    padding: 10px 30px;
+    background-color: rgba(141, 248, 83, 0.719);
+    border-radius: 20px;
+    margin: 20px 30px;
+    border-width: 2px;
+
+    overflow: hidden;
+}
+button:active {
+    scale: 0.9;
+}
